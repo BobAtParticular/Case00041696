@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2</TargetFramework>
+    <LangVersion>7.1</LangVersion>
+    <RootNamespace>NServiceBusConfiguration</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NServiceBus" Version="7.*" />
+    <PackageReference Include="NServiceBus.Metrics.ServiceControl" Version="3.*"/>
+  </ItemGroup>
+</Project>
